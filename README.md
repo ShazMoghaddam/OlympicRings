@@ -1,4 +1,4 @@
-Olympic Rings Visualization (Paris 2024)
+Olympic Rings Visualization
 
 This project is a simple Python visualization of the Olympic Rings created using Matplotlib.
 It was uploaded around the time of the Paris 2024 Olympic Games as a small creative and educational exercise.
