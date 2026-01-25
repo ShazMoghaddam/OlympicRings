@@ -1,9 +1,9 @@
-Olympic Rings Visualization
+## Olympic Rings Visualization
 
 This project is a simple Python visualization of the Olympic Rings created using Matplotlib.
 It was uploaded around the time of the Paris 2024 Olympic Games as a small creative and educational exercise.
 
-Overview
+## Overview
 
 The script programmatically draws the five Olympic rings with:
 
@@ -21,7 +21,7 @@ Python
 
 Matplotlib
 
-How It Works
+# How It Works
 
 Each ring is defined by a center point and color
 
@@ -31,7 +31,7 @@ Axes are removed for a clean visual output
 
 Aspect ratio is fixed to ensure perfect circles
 
-How to Run
+# How to Run
 
 Ensure Python is installed
 
@@ -40,6 +40,9 @@ Install Matplotlib if needed:
 pip install matplotlib
 
 
-Run the script:
+# Run the script:
 
-python olympic_rings.py![Figure_1](https://github.com/user-attachments/assets/c7de335b-750d-4c8c-aef6-2bff1b425da5)
+python olympic_rings.py
+
+
+![Figure_1](https://github.com/user-attachments/assets/c7de335b-750d-4c8c-aef6-2bff1b425da5)
