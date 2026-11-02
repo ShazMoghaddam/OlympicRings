@@ -33,12 +33,6 @@ MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 SANS = "ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 
 
-def notes_at(games: pd.DataFrame, by_year: dict[int, str]) -> dict[int, str]:
-    """bezel-charts reads a number in a note as a position, not a label, so a note on a year is keyed by its place."""
-    years = games["year"].tolist()
-    return {years.index(str(year)): text for year, text in by_year.items()}
-
-
 def load_games() -> pd.DataFrame:
     games = pd.read_csv(DATA / "games.csv")
     return games[games["status"] == "held"].assign(year=lambda df: df["year"].astype(int).astype(str))
@@ -59,18 +53,18 @@ def tiles(games: pd.DataFrame) -> None:
 def athletes(games: pd.DataFrame) -> None:
     table = games.rename(columns={"men": "Men", "women": "Women"})
     bc.line(table, x="year", y=["Men", "Women"], heading="Athletes at each Summer Games", compact=True,
-            color=[BLUE, RED], width=WIDE, straight=True, notes=notes_at(games, {2024: "Almost level"}), **LIGHT).save(CHARTS / "athletes-over-time.svg")
+            color=[BLUE, RED], width=WIDE, straight=True, notes={"2024": "Almost level"}, **LIGHT).save(CHARTS / "athletes-over-time.svg")
 
 
 def nations(games: pd.DataFrame) -> None:
     bc.line(games, x="year", y="nations", heading="Nations at each Summer Games", color=BLUE, width=WIDE,
-            straight=True, notes=notes_at(games, {1980: "Boycotts", 1996: "Every nation"}), **LIGHT).save(CHARTS / "nations-over-time.svg")
+            straight=True, notes={"1980": "Boycotts", "1996": "Every nation"}, **LIGHT).save(CHARTS / "nations-over-time.svg")
 
 
 def nations_vs_athletes(games: pd.DataFrame) -> None:
     table = games.assign(Nations=games["nations"], Athletes=games["athletes"])
     bc.scatter(table, x="Nations", y="Athletes", label="year", trend=True, heading="More nations, more athletes",
-               color=RED, width=WIDE, notes=notes_at(games, {1980: "1980"}),
+               color=RED, width=WIDE, notes={"1980": "1980"},
                **LIGHT).save(CHARTS / "nations-vs-athletes.svg")
 
 

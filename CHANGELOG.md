@@ -2,6 +2,10 @@
 
 All notable changes to this project are listed here. Versions are dated by month, like `v2026.11`.
 
+## Unreleased
+
+- Notes on the charts now use plain years, now that bezel-charts 1.0.1 reads them as labels
+
 ## v2026.11 · November 2026
 
 The rebuild, from a small script into a full history of the Summer Games.
