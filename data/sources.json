@@ -1,0 +1,60 @@
+{
+  "games.csv": {
+    "used_for": "Hosts, dates, nations, athletes (women and men), sports and events at every Games",
+    "sources": [
+      {
+        "publisher": "International Olympic Committee",
+        "title": "Factsheet: The Games of the Olympiad",
+        "url": "https://stillmed.olympics.com/media/Documents/Olympic-Games/Factsheets/The-Games-of-the-Olympiad.pdf",
+        "updated": "2026-03-30"
+      },
+      {
+        "publisher": "International Olympic Committee",
+        "title": "Factsheet: The programme of the Games of the Olympiad",
+        "url": "https://stillmed.olympics.com/media/Documents/Olympic-Games/Factsheets/The-programme-of-the-Games-of-the-Olympiad.pdf",
+        "updated": "2026-08-12"
+      }
+    ],
+    "notes": "Melbourne 1956 athletes and events include Stockholm; nations are Melbourne only. The continent column is added by this project."
+  },
+  "medals_all_time.csv": {
+    "used_for": "All-time Summer medal table, top 30 teams, up to Paris 2024",
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "title": "Olympics medal table",
+        "url": "https://en.wikipedia.org/wiki/Olympics_medal_table",
+        "updated": "2024-08-11"
+      }
+    ],
+    "notes": "Includes medal changes up to 11 August 2024. Teams are not combined with predecessors or successors. The IOC does not publish an all-time table."
+  },
+  "sports_programme.csv": {
+    "used_for": "Which sports were at which Games",
+    "sources": [
+      {
+        "publisher": "Olympedia, collected in KeithGalli/Olympics-Dataset",
+        "title": "Olympic results, 1896 to 2020",
+        "url": "https://github.com/KeithGalli/Olympics-Dataset"
+      },
+      {
+        "publisher": "International Olympic Committee",
+        "title": "Factsheet: The programme of the Games of the Olympiad",
+        "url": "https://stillmed.olympics.com/media/Documents/Olympic-Games/Factsheets/The-programme-of-the-Games-of-the-Olympiad.pdf",
+        "updated": "2026-08-12"
+      }
+    ],
+    "notes": "Art competitions and demonstration events are left out. Paris 2024 and the 1956 equestrian events in Stockholm are added from the IOC."
+  },
+  "sport_events.csv": {
+    "used_for": "Medal events per sport and the nation with the most medals in each, 1896 to 2020",
+    "sources": [
+      {
+        "publisher": "Olympedia, collected in KeithGalli/Olympics-Dataset",
+        "title": "Olympic results, 1896 to 2020",
+        "url": "https://github.com/KeithGalli/Olympics-Dataset"
+      }
+    ],
+    "notes": "Counted by data/build_sports.py. The total is within 2% of the IOC's for the same Games, but individual Games and sports can differ."
+  }
+}
