@@ -1,0 +1,23 @@
+name: Checks
+
+# Redraws the rings, charts and README tables and runs the tests on every pull request,
+# so a change to the code or data can't quietly leave them out of step.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+      - run: python build_charts.py
+      - run: pytest -q
+      - name: Charts and README match the code
+        run: git diff --exit-code -- charts README.md || (echo "Run python build_charts.py and commit the results" && exit 1)

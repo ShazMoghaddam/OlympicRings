@@ -1,0 +1,36 @@
+edition,year,status,city,host_country,continent,start,end,nations,women,men,athletes,sports,events,note
+I,1896,held,Athens,Greece,Europe,1896-04-06,1896-04-15,14,0,241,241,9,43,Men only. Winners received silver medals
+II,1900,held,Paris,France,Europe,1900-05-14,1900-10-28,24,22,975,997,19,95,Held within the Universal Exhibition. Women competed for the first time
+III,1904,held,St. Louis,United States,Americas,1904-07-01,1904-11-23,12,6,645,651,16,95,Held alongside a world fair over almost five months
+IV,1908,held,London,Great Britain,Europe,1908-04-27,1908-10-31,22,37,1971,2008,22,110,First field hockey competition
+V,1912,held,Stockholm,Sweden,Europe,1912-05-05,1912-07-27,28,48,2359,2407,14,102,First Games with competitors from all five continents
+VI,1916,cancelled,,,,,,,,,,,,Cancelled because of the First World War
+VII,1920,held,Antwerp,Belgium,Europe,1920-04-20,1920-09-12,29,65,2561,2626,22,156,First Olympic flag and first athletes' oath
+VIII,1924,held,Paris,France,Europe,1924-05-04,1924-07-27,44,135,2954,3089,17,126,Three flags raised at the Closing Ceremony for the first time
+IX,1928,held,Amsterdam,Netherlands,Europe,1928-05-17,1928-08-12,46,277,2606,2883,14,109,First Olympic flame. First women's athletics events
+X,1932,held,Los Angeles,United States,Americas,1932-07-30,1932-08-14,37,126,1206,1332,14,117,First Games over 16 days. First Olympic village
+XI,1936,held,Berlin,Germany,Europe,1936-08-01,1936-08-16,49,331,3632,3963,19,129,First torch relay from Olympia and first television broadcast
+XII,1940,cancelled,,,,,,,,,,,,Cancelled because of the Second World War
+XIII,1944,cancelled,,,,,,,,,,,,Cancelled because of the Second World War
+XIV,1948,held,London,Great Britain,Europe,1948-07-29,1948-08-14,59,390,3714,4104,17,136,No athletes from Japan or Germany
+XV,1952,held,Helsinki,Finland,Europe,1952-07-19,1952-08-03,69,519,4436,4955,17,149,The Soviet Union competed for the first time
+XVI,1956,held,Melbourne,Australia,Oceania,1956-11-22,1956-12-08,67,376,2938,3314,17,151,Equestrian held in Stockholm in June. Athlete and event totals include Stockholm; nations are Melbourne only
+XVII,1960,held,Rome,Italy,Europe,1960-08-25,1960-09-11,83,611,4727,5338,17,150,Broadcast live in 18 European countries
+XVIII,1964,held,Tokyo,Japan,Asia,1964-10-10,1964-10-24,93,678,4473,5151,19,163,First Games in Asia
+XIX,1968,held,Mexico City,Mexico,Americas,1968-10-12,1968-10-27,112,781,4735,5516,18,172,First Games in Latin America. First doping controls for winners
+XX,1972,held,Munich,Germany,Europe,1972-08-26,1972-09-11,121,1059,6075,7134,21,195,Suspended for 34 hours after the killing of 11 Israeli team members
+XXI,1976,held,Montreal,Canada,Americas,1976-07-17,1976-08-01,92,1260,4824,6084,21,198,Boycott over New Zealand's rugby tour of apartheid South Africa
+XXII,1980,held,Moscow,Soviet Union,Europe,1980-07-19,1980-08-03,80,1115,4064,5179,21,203,US-led boycott. Fewest nations since 1956
+XXIII,1984,held,Los Angeles,United States,Americas,1984-07-28,1984-08-12,140,1566,5263,6829,21,221,Soviet-led boycott but a record 140 nations
+XXIV,1988,held,Seoul,South Korea,Asia,1988-09-17,1988-10-02,159,2194,6197,8391,23,237,Most participants in Olympic history at the time
+XXV,1992,held,Barcelona,Spain,Europe,1992-07-25,1992-08-09,169,2704,6652,9356,25,257,South Africa returned for the first time since 1960
+XXVI,1996,held,Atlanta,United States,Americas,1996-07-19,1996-08-04,197,3512,6806,10318,26,271,Every recognised National Olympic Committee took part for the first time
+XXVII,2000,held,Sydney,Australia,Oceania,2000-09-15,2000-10-01,199,4069,6582,10651,28,300,North and South Korea paraded together under one flag
+XXVIII,2004,held,Athens,Greece,Europe,2004-08-12,2004-08-28,201,4329,6296,10625,28,301,Shot put held at ancient Olympia
+XXIX,2008,held,Beijing,China,Asia,2008-08-08,2008-08-24,204,4637,6305,10942,28,302,First Games in China
+XXX,2012,held,London,Great Britain,Europe,2012-07-27,2012-08-12,204,4676,5892,10568,26,302,London's third Games
+XXXI,2016,held,Rio de Janeiro,Brazil,Americas,2016-08-05,2016-08-21,205,5059,6179,11238,28,306,First Games in South America. Golf and rugby returned
+XXXII,2020,held,Tokyo,Japan,Asia,2021-07-23,2021-08-08,205,5457,5963,11420,33,339,Postponed to 2021
+XXXIII,2024,held,Paris,France,Europe,2024-07-26,2024-08-11,204,5300,5513,10813,32,329,Breaking made its debut
+XXXIV,2028,awarded,Los Angeles,United States,Americas,2028-07-21,2028-08-06,,,,,36,353,"Awarded. Baseball/softball, cricket, flag football, lacrosse and squash added for LA28 only"
+XXXV,2032,awarded,Brisbane,Australia,Oceania,2032-07-23,2032-08-08,,,,,,,Awarded
