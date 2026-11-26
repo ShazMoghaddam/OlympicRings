@@ -4,6 +4,8 @@ All notable changes to this project are listed here. Versions are dated by month
 
 ## Unreleased
 
+- **A film of the story.** A 2½-minute narrated film of the Summer Games, made with Bezel Film, in `film/`,
+  with a preview at the top of the README
 - Notes on the charts now use plain years, now that bezel-charts 1.0.1 reads them as labels
 
 ## v2026.11 · November 2026

@@ -21,6 +21,16 @@ have changed, with every figure traced to a named source.
   <img src="charts/tile-events.svg" width="270" alt="Medal events at each Summer Games, 43 in 1896 and 329 in 2024">
 </p>
 
+## Watch the film
+
+<p align="center">
+  <a href="film/film.mp4"><img src="film/film.gif" width="400" alt="From the film: Athens 1896, 241 athletes, then Paris 2024, 10,813 athletes, then a poster of five coloured stripes titled The Olympic Rings"></a>
+</p>
+
+[▶ Watch the full film with sound](film/film.mp4) (2 min 31 s). The story of the Summer Games, from Athens to Paris, told in charts with a voiceover and captions, sized for LinkedIn. It was made with
+[Bezel Film](https://github.com/ShazMoghaddam/bezel-film), my open-source toolkit for narrated films made in code. Its
+film file and scenes are in [`film/`](film).
+
 ## Contents
 
 [How it started](#how-it-started) · [How the Games grew](#how-the-games-grew) · [Who has hosted](#who-has-hosted) ·

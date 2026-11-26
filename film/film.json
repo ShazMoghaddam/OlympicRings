@@ -1,0 +1,628 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ShazMoghaddam/bezel-film/main/schema/film.schema.json",
+  "spec": 1,
+  "title": "The Olympic Rings: every Summer Games, in charts",
+  "style": "swiss-poster",
+  "format": {
+    "preset": "linkedin-mobile"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "gender": "female"
+  },
+  "music": {
+    "source": "generated",
+    "mood": "upbeat"
+  },
+  "captions": true,
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "custom",
+      "file": "scenes/hook.js",
+      "props": {
+        "items": [
+          {
+            "when": "Athens 1896",
+            "value": 241,
+            "label": "athletes"
+          },
+          {
+            "when": "Paris 2024",
+            "value": 10813,
+            "label": "athletes"
+          }
+        ],
+        "source": "Source: International Olympic Committee",
+        "accent": "#0081C8"
+      },
+      "narration": "In 1896, 241 athletes came to Athens for the first modern Olympics. At Paris 2024, there were 10,813.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.45,
+          "pitch": 3
+        },
+        {
+          "line": 1,
+          "at": 1.0,
+          "sound": "ding",
+          "gain": 0.5
+        }
+      ]
+    },
+    {
+      "id": "poster",
+      "type": "custom",
+      "file": "scenes/poster.js",
+      "props": {
+        "name": "The Olympic Rings",
+        "colours": [
+          "#0081C8",
+          "#FCB131",
+          "#000000",
+          "#00A651",
+          "#EE334E"
+        ],
+        "details": [
+          "Every Summer Games",
+          "Athens 1896 to Paris 2024",
+          "Every figure sourced",
+          "Started in 2024 as a Matplotlib exercise"
+        ]
+      },
+      "narration": "This is The Olympic Rings: the story of every Summer Games, from Athens to Paris. Every figure is traced to a named source. It started in 2024, as a small Python exercise.",
+      "sounds": [
+        {
+          "at": 0.25,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "at": 0.75,
+          "sound": "click",
+          "gain": 0.4
+        }
+      ]
+    },
+    {
+      "id": "moments-early",
+      "type": "custom",
+      "file": "scenes/moments.js",
+      "props": {
+        "heading": "Moments that shaped the Games",
+        "from": 1,
+        "items": [
+          {
+            "year": "1896",
+            "what": "No gold medals: winners got silver",
+            "colour": "#0081C8"
+          },
+          {
+            "year": "1900",
+            "what": "Women compete for the first time",
+            "colour": "#007A3D"
+          },
+          {
+            "year": "1916–44",
+            "what": "Three Games cancelled by two world wars",
+            "colour": "#EE334E"
+          }
+        ]
+      },
+      "narration": "Some moments stand out. In 1896, there were no gold medals: winners got silver. In 1900, in Paris, women competed for the first time. And three Games, in 1916, 1940 and 1944, were cancelled by the world wars.",
+      "sounds": [
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 2,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        },
+        {
+          "line": 3,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 4
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "type": "custom",
+      "file": "scenes/growth.js",
+      "props": {
+        "heading": "Athletes at every Summer Games",
+        "athletes": [
+          [
+            1896,
+            241
+          ],
+          [
+            1900,
+            997
+          ],
+          [
+            1904,
+            651
+          ],
+          [
+            1908,
+            2008
+          ],
+          [
+            1912,
+            2407
+          ],
+          [
+            1920,
+            2626
+          ],
+          [
+            1924,
+            3089
+          ],
+          [
+            1928,
+            2883
+          ],
+          [
+            1932,
+            1332
+          ],
+          [
+            1936,
+            3963
+          ],
+          [
+            1948,
+            4104
+          ],
+          [
+            1952,
+            4955
+          ],
+          [
+            1956,
+            3314
+          ],
+          [
+            1960,
+            5338
+          ],
+          [
+            1964,
+            5151
+          ],
+          [
+            1968,
+            5516
+          ],
+          [
+            1972,
+            7134
+          ],
+          [
+            1976,
+            6084
+          ],
+          [
+            1980,
+            5179
+          ],
+          [
+            1984,
+            6829
+          ],
+          [
+            1988,
+            8391
+          ],
+          [
+            1992,
+            9356
+          ],
+          [
+            1996,
+            10318
+          ],
+          [
+            2000,
+            10651
+          ],
+          [
+            2004,
+            10625
+          ],
+          [
+            2008,
+            10942
+          ],
+          [
+            2012,
+            10568
+          ],
+          [
+            2016,
+            11238
+          ],
+          [
+            2020,
+            11420
+          ],
+          [
+            2024,
+            10813
+          ]
+        ],
+        "from": 1996,
+        "line": "10,000",
+        "source": "Source: IOC",
+        "accent": "#00A651"
+      },
+      "narration": "Since 1896, the Games have grown from a few hundred athletes to more than ten thousand. Every Games since Atlanta 1996 has passed ten thousand.",
+      "sounds": [
+        {
+          "at": 0.4,
+          "sound": "sweep",
+          "gain": 0.35
+        },
+        {
+          "line": 1,
+          "at": 0.0,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        }
+      ]
+    },
+    {
+      "id": "women",
+      "type": "custom",
+      "file": "scenes/women.js",
+      "props": {
+        "heading": "Women's share of athletes",
+        "items": [
+          {
+            "year": 1900,
+            "value": 2.2
+          },
+          {
+            "year": 1964,
+            "value": 13.2
+          },
+          {
+            "year": 1996,
+            "value": 34
+          },
+          {
+            "year": 2024,
+            "value": 49
+          }
+        ],
+        "accent": "#EE334E"
+      },
+      "narration": "In 1900, women were 2.2 percent of athletes. By 1964, 13.2 percent. In 1996, 34 percent. And at Paris 2024, 49 percent.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        },
+        {
+          "line": 2,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 4
+        },
+        {
+          "line": 3,
+          "at": 0.3,
+          "sound": "ding",
+          "gain": 0.5
+        }
+      ]
+    },
+    {
+      "id": "moments-modern",
+      "type": "custom",
+      "file": "scenes/moments.js",
+      "props": {
+        "heading": "And more recently",
+        "from": 0,
+        "items": [
+          {
+            "year": "1964",
+            "what": "Tokyo: the first Games in Asia",
+            "colour": "#EE334E"
+          },
+          {
+            "year": "1976–84",
+            "what": "Boycotts hit three Games in a row",
+            "colour": "#0081C8"
+          },
+          {
+            "year": "2021",
+            "what": "Tokyo 2020, held a year late because of the pandemic",
+            "colour": "#007A3D"
+          }
+        ]
+      },
+      "narration": "Tokyo 1964 was the first Games in Asia. From 1976 to 1984, boycotts hit three Games in a row. And Tokyo 2020 was held in 2021, a year late, because of the pandemic.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        },
+        {
+          "line": 2,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 4
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "type": "custom",
+      "file": "scenes/sports.js",
+      "props": {
+        "heading": "Five sports at every Games",
+        "colours": [
+          "#0081C8",
+          "#FCB131",
+          "#000000",
+          "#00A651",
+          "#EE334E"
+        ],
+        "sports": [
+          "Aquatics",
+          "Athletics",
+          "Cycling",
+          "Fencing",
+          "Gymnastics"
+        ],
+        "facts": [
+          "Golf returned in 2016, after 112 years away",
+          "33 sports at Tokyo 2020. 36 planned for LA 2028"
+        ]
+      },
+      "narration": "Only five sports have been at all 30 Summer Games: aquatics, athletics, cycling, fencing and gymnastics. Golf came back in 2016, after 112 years away. And Los Angeles 2028 will have 36 sports, the most yet.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.9,
+          "sound": "tick",
+          "gain": 0.35,
+          "for": 1.6
+        },
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 2,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        }
+      ]
+    },
+    {
+      "id": "hosts",
+      "type": "custom",
+      "file": "scenes/hosts.js",
+      "props": {
+        "heading": "Summer Games hosted, by continent",
+        "rows": [
+          {
+            "name": "Europe",
+            "value": 17
+          },
+          {
+            "name": "Americas",
+            "value": 7
+          },
+          {
+            "name": "Asia",
+            "value": 4
+          },
+          {
+            "name": "Oceania",
+            "value": 2
+          },
+          {
+            "name": "Africa",
+            "value": 0
+          }
+        ],
+        "accent": "#EE334E"
+      },
+      "narration": "Europe has hosted 17 of the 30 Summer Games. The Americas, 7. Asia, 4. Oceania, 2. And Africa has never hosted one.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.15,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.15,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 1
+        },
+        {
+          "line": 2,
+          "at": 0.15,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        },
+        {
+          "line": 3,
+          "at": 0.15,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 3
+        },
+        {
+          "line": 4,
+          "at": 0.5,
+          "sound": "click",
+          "gain": 0.45
+        }
+      ]
+    },
+    {
+      "id": "medals",
+      "type": "custom",
+      "file": "scenes/medals.js",
+      "props": {
+        "heading": "Most Summer medals, all time",
+        "from": 0,
+        "noteAt": 4,
+        "rows": [
+          {
+            "name": "United States",
+            "value": 2765,
+            "games": "29 Games"
+          },
+          {
+            "name": "Soviet Union",
+            "value": 1010,
+            "games": "9 Games",
+            "colour": "#FCB131"
+          },
+          {
+            "name": "Great Britain",
+            "value": 980,
+            "games": "30 Games"
+          },
+          {
+            "name": "China",
+            "value": 727,
+            "games": "12 Games"
+          }
+        ],
+        "note": "By golds alone, China ranks third: 303 from 12 Games.",
+        "source": "Source: Wikipedia, Olympics medal table, to August 2024"
+      },
+      "narration": "The United States has won the most medals: 2,765. The Soviet Union is next, with 1,010 from only nine Games. Then Great Britain, with 980. And China, with 727 from just twelve. By golds alone, China ranks third.",
+      "sounds": [
+        {
+          "line": 0,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 2
+        },
+        {
+          "line": 2,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 3
+        },
+        {
+          "line": 3,
+          "at": 0.2,
+          "sound": "tap",
+          "gain": 0.4,
+          "pitch": 4
+        },
+        {
+          "line": 4,
+          "at": 0.3,
+          "sound": "ding",
+          "gain": 0.45
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "type": "custom",
+      "file": "scenes/close.js",
+      "props": {
+        "name": "The Olympic Rings",
+        "colours": [
+          "#0081C8",
+          "#FCB131",
+          "#000000",
+          "#00A651",
+          "#EE334E"
+        ],
+        "url": "github.com/ShazMoghaddam/OlympicRings",
+        "credit": "Charts by Bezel Charts · Film made with Bezel Film",
+        "by": "Shaz Moghaddam · London",
+        "links": [
+          "shazmoghaddam.github.io",
+          "linkedin.com/in/shazmoghaddam"
+        ],
+        "chipColours": [
+          "#0081C8",
+          "#007A3D",
+          "#D61A3C"
+        ]
+      },
+      "narration": "Explore every Games on GitHub. Made by Shaz Moghaddam, in London.",
+      "sounds": [
+        {
+          "at": 0.1,
+          "sound": "swish",
+          "gain": 0.4
+        },
+        {
+          "line": 1,
+          "at": 0.3,
+          "sound": "click",
+          "gain": 0.4
+        }
+      ]
+    }
+  ]
+}
